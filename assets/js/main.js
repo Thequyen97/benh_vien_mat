@@ -116,13 +116,15 @@ $(document).ready(function(){
     $(".modal-header button").click(function(){
         $(".modal").hide(1000);
     });
+    $('#home-modal').modal('show');
+
+    // sibar-right - dịch vụ
     $(".tab-menu-right").click(function(){
-        $(".list-items").toggle();
+        $(".list-items").toggle(200);
     });
     $(".tab-menu-right1").click(function(){
-        $(".list-items1").toggle();
+        $(".list-items1").toggle(200);
     });
-    $('#home-modal').modal('show');
 
 
     // item-gioi thieu

@@ -324,9 +324,7 @@ body{
 .section2 p{
     font-size: 16px;
 }
-.slide-doctor button{
-    display: none;
-}
+
 .slide-doctor img{
     width: 255px;
     margin-right: 30px;
@@ -420,10 +418,7 @@ body{
 }
 .modal-header{
     padding: 0;
-    height: 1px;
-}
-.modal-header{
-    padding: 0;
+    margin-left: 10px;
 }
 .modal-header .close{
     background: url("../image/layout/icon_close.png") no-repeat;
@@ -495,7 +490,7 @@ body{
     margin-top:48px;
     background-color: #36814d;
     padding: 20px 0;
-    height: 521px;
+    /*height: 521px;*/
 }
 .img-footer{
     text-align: center;
@@ -506,7 +501,10 @@ body{
     color: #FFFFFF;
     font-size: 18px;
     font-family: "Proxima Nova Bold",Arial,serif;
-    margin-bottom: 0;
+    margin-bottom: 31px;
+}
+.sibar-life{
+    margin-bottom: 35px;
 }
 .list-contact{
     list-style: none;
@@ -520,12 +518,14 @@ body{
 }
 .number-contact{
     font-size: 16px;
+    margin-bottom: 1px;
 }
 .list-contact li p{
     font-size: 16px;
 }
 .hour-work{
     color: #FFFFFF;
+    margin-bottom: -2px;
 }
 .hour-work p{
     font-size: 16px;
@@ -709,7 +709,11 @@ body{
 }
 /*-----GIỚI THIỆU - CHUYÊN GIA -----*/
 .profire h4{
-    margin: 15px 0 0 0;
+    margin: 12px 0 0 0;
+    line-height: 1;
+}
+.box-profire{
+    margin-bottom: 35px;
 }
 .profire h4 a{
     text-decoration: none;
@@ -721,8 +725,12 @@ body{
     color: #28a745;
 }
 /*-----GIỚI THIỆU - CHUYÊN GIA CHI TIẾT-----*/
+.view-doctor{
+    float: left;
+}
 .profire-doctor img{
     width: 100%;
+    margin-bottom: 16px;
 }
 .profire-doctor h3{
     color: #25a55e;
@@ -732,15 +740,18 @@ body{
 }
 
 /*-----GIỚI THIỆU - BAN LÃNH ĐẠO-----*/
-
+.list-boss{
+    margin-bottom: 23px;
+}
 .top1{
-    margin-bottom: 57px;
+    margin-bottom: 64px;
 }
 .title-top1{
     margin: 0;
+    font-size: 0.5rem;
 }
 .box-top1{
-    margin-bottom: 24px;
+    margin-bottom: 40px;
 }
 .box-top1 img{
     width: 208px;
@@ -753,11 +764,23 @@ body{
     font-family: "Proxima Nova Bold", Arial, Serif;
 }
 /*-----GIỚI THIỆU - SỨ MỆNH-----*/
+.tamnhin{
+    margin-bottom: 25px;
+}
+.icon-quote-left{
+    padding-bottom: 6px;
+}
+.icon-quote-right{
+    float: right;
+    margin-top: -35px;
+}
 .quote{
     margin: 0 45px;
 }
 .quote p{
     font-size: 16px;
+    padding: 5px 45px;
+    margin-top: -20px;
 }
 .box-icon2 img{
     max-width: 100%;
@@ -881,7 +904,7 @@ body{
 }
 .tab-menu-right{
     background: url("../image/layout/bgr_01.jpg");
-    padding: 8px 8px 5px 20px;
+    padding: 10px 8px 7px 20px;
     margin-bottom: 4px;
     font-size: 16px;
     color: #FFFFFF;
@@ -896,21 +919,17 @@ body{
 
 .list-items{
     padding-left: 0;
+    margin-bottom: 0;
 }
-.list-items li{
-    padding: 7px 15px 7px 30px;
-    background: url("../image/layout/icon-arrow-sidebar.png") no-repeat;
-    border: 1px solid rgba(0,0,0,.125);
-    border-radius: 2px;
-}
-.list-items{
+.list-items1{
     padding-left: 0;
+    margin-bottom: 0;
 }
 .list-items li{
     padding: 7px 15px 7px 30px;
     background: url("../image/layout/icon-arrow-sidebar.png") no-repeat;
     border: 1px solid rgba(0,0,0,.125);
-    border-radius: 2px;
+    border-radius: 4px;
 }
 .list-items1{
     padding-left: 0;
