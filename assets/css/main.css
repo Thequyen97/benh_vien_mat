@@ -191,7 +191,6 @@ body{
     background:#7bc4cf  url("../image/products/background-dv1.png") no-repeat center center fixed !important;
     color: #FFFFFF;
     padding: 50px 0 10px;
-    height: 449.78px;
     line-height: 20px;
 }
 .title-intro{
@@ -202,11 +201,22 @@ body{
 .text-intro{
     font-size: 16px;
     font-family: "Proxima-Nova-Regular";
+    margin-bottom: 18px;
+}
+.box-intro{
+    height: 289px;
+}
+.icon-it img{
+    position: absolute;
+    top: 0;
+    left: 38%;
 }
 .image-hover{
     display: none;
     text-align: center;
-    padding-left: 100px;
+}
+.icon-it{
+    margin-bottom: 24px;
 }
 .icon-it:hover .image-main{
     display: none;
@@ -218,7 +228,6 @@ body{
 .view-detail{
     margin-top: 25px;
     display: none;
-
 }
 .box-intro:hover .view-detail{
     display: block;
@@ -381,9 +390,18 @@ body{
 .section3 button{
     display: none;
 }
+.section3 img{
+    width: 100%;
+}
 .mutiple-images{
     background-color: #daf2e1;
     padding: 11px 25px 0px 25px;
+}
+.mutiple-images img{
+    padding-right: 10px;
+}
+.mutiple-images button{
+    display: none;
 }
 .video-media{
     position: relative;
@@ -693,8 +711,8 @@ body{
     background-color: #3fa15f;
     font-size: 15px;
     margin-top: -50px;
+    width: 100%;
     padding: 15px 20px;
-    width: 753px;
     color: #FFFFFF;
 }
 .item-coso{
@@ -706,6 +724,9 @@ body{
 }
 .item-coso .slick-slide{
     margin-right: 10px;
+}
+.image-csvc{
+    position: relative;
 }
 /*-----GIỚI THIỆU - CHUYÊN GIA -----*/
 .profire h4{
@@ -903,14 +924,14 @@ body{
     color: #FFFFFF;
 }
 .tab-menu-right{
-    background: url("../image/layout/bgr_01.jpg");
+    background: url("../image/layout/bgr_01.jpg") no-repeat;
     padding: 10px 8px 7px 20px;
     margin-bottom: 4px;
     font-size: 16px;
     color: #FFFFFF;
 }
 .tab-menu-right1{
-    background: url("../image/layout/bgr_01.jpg");
+    background: url("../image/layout/bgr_01.jpg") no-repeat;
     padding: 8px;
     margin-bottom: 4px;
     font-size: 16px;
@@ -941,4 +962,16 @@ body{
     border-radius: 2px;
 }
 
+/*Reponsive mobile app*/
+@media (max-width: 576px) {
+    .col-sm-5{
+        flex: 100%;
+    }
+    .ads-img{
+        display: none;
+    }
+    .img-footer{
+        margin-top: 0;
+    }
+}
 
