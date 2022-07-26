@@ -1,0 +1,925 @@
+@font-face {
+    font-family: "Roboto-Black";
+    src: url("../font/font Roboto/font Roboto/Roboto-Black.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Roboto-Light";
+    src: url("../font/font Roboto/font Roboto/Roboto-Light.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("../font/font Roboto/font Roboto/Roboto-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../font/font Roboto/font Roboto/Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Proxima-Nova-Regular";
+    src: url("../font/Proxima Nova Standard/Mark Simonson - Proxima Nova Regular.otf") format("truetype");
+}
+@font-face {
+    font-family: "Proxima Nova Bold";
+    src: url("../font/Proxima Nova Standard/Mark Simonson - Proxima Nova Bold.otf") format("truetype");
+}
+@font-face {
+    font-family: "Proxima Nova Regular Italic";
+    src: url("../font/Proxima Nova Standard/Mark Simonson - Proxima Nova Regular Italic.otf") format("truetype");
+}
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+p{
+    font-size: 14px;
+    font-family: "Proxima-Nova-Regular";
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "Proxima-Nova-Regular";
+    font-size: 14px;
+    color: #000000;
+    background: #fff;
+    padding: 0px !important;
+    margin: 0px !important;
+    line-height: 20px;
+}
+/*-----POPUP-----*/
+
+ /*-----HOME PAGE-----*/
+
+.nav-item{
+    height: 63px;
+}
+.nav-link{
+    padding: 20px 8px;
+    text-transform: uppercase;
+    font-family: "Proxima-Nova-Regular";
+    font-size: 14px;
+    color: #838383;
+}
+.topnav li{
+    list-style: none;
+}
+.collapse ul li{
+    text-decoration: none;
+}
+.payment-method{
+    display: flex;
+    padding-left: 25px;
+    margin-right: 5px;
+}
+.payment-method a{
+    text-decoration: none;
+}
+.payment-method img{
+    padding: 0px 10px 0 0;
+}
+.payment-method a strong{
+    font-size: 16px;
+    font-family: "Proxima Nova Bold", Arial, serif;
+}
+.text-uppercase{
+    padding-top: 0;
+}
+.text-lg{
+    font-size: 16px;
+}
+.text-lg:hover{
+    color: #138144;
+    text-decoration: none;
+}
+.color-primary{
+    color: #25a55e;
+}
+.nav-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #838383;
+    padding: 20px 0;
+}
+
+.nav-item{
+    position: static;
+    text-decoration: none;
+}
+.nav-item .show{
+    border-bottom: 3px solid #3fa15f;
+}
+.dropdown-menu{
+    background-color: #3fa15f;
+    margin-top: -8px;
+    border: none;
+    width: 100%;
+}
+.dropdown-menu .container{
+    padding-top: 15px;
+}
+.dropdown-toggle::after{
+    margin-left: 7px;
+}
+.tintuc .dropdown-toggle::after{
+    margin-left: 4px;
+}
+.list-unstyled li{
+    padding: 4px 0;
+    background: url("../image/layout/mega-menu-icon.png")no-repeat 0 7px;
+}
+.items h4{
+    font-family: "Proxima-Nova-Regular";
+    color: #fff !important;
+    border-bottom: 1px solid #48a147;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.col-md-5{
+    flex:0 0 20%;
+}
+.list-unstyled li{
+    list-style: none;
+}
+.list-unstyled li a{
+    color: #FFFFFF;
+    text-transform: inherit;
+    font-size: 14px;
+    text-decoration: none;
+    padding-left: 15px;
+}
+/*BANNER*/
+.img-banner{
+    margin-bottom: 10px;
+}
+.banner img{
+    max-width: 100%;
+}
+.slick-next{
+    margin-top: -12px;
+    right: 17px;
+    background: url("../image/layout/ico_11_1.png") no-repeat center fixed;
+    height: 58px;
+    width: 37px;
+}
+.slick-next:hover{
+    background: url("../image/layout/ico_12.png") no-repeat center fixed;
+}
+.slick-next:before{
+    content: none;
+}
+.slick-prev:before{
+    content: none;
+}
+.slick-prev{
+    margin-top: -12px;
+    z-index: 9999;
+    left: 17px;
+    background: url("../image/layout/ico_11.png") no-repeat center fixed;
+    height: 58px;
+    width: 37px;
+}
+.slick-prev:hover{
+    background: url("../image/layout/ico_12_1.png") no-repeat center fixed;
+}
+.intro{
+    background:#7bc4cf  url("../image/products/background-dv1.png") no-repeat center center fixed !important;
+    color: #FFFFFF;
+    padding: 50px 0 10px;
+    height: 449.78px;
+    line-height: 20px;
+}
+.title-intro{
+    font-size: 41px;
+    font-family: "Proxima Nova Bold", Arial,serif;
+    margin: 0;
+}
+.text-intro{
+    font-size: 16px;
+    font-family: "Proxima-Nova-Regular";
+}
+.image-hover{
+    display: none;
+    text-align: center;
+    padding-left: 100px;
+}
+.icon-it:hover .image-main{
+    display: none;
+}
+.icon-it:hover .image-hover{
+    display: block;
+    text-align: center;
+}
+.view-detail{
+    margin-top: 25px;
+    display: none;
+
+}
+.box-intro:hover .view-detail{
+    display: block;
+}
+.view-detail a{
+    text-decoration: none;
+}
+.view-detail img{
+    padding-left: 10px;
+}
+.icon-it{
+    height: 80px;
+    background-position: center ;
+}
+.view-detail a{
+    font-size: 16px;
+    font-family: "Proxima-Nova-Regular";
+    color: #46f4a9;
+}
+.view-detail a:hover{
+    color: black;
+}
+.col-sm-5{
+    flex: 0 0 20%;
+}
+.title-box{
+    margin: 0;
+    font-size: 18px;
+    font-family: "Proxima Nova Bold", Arial, sans-serif;
+}
+.
+/*CONTENT*/
+.widget-title{
+    margin-bottom: 25px;
+}
+.widget-title h4{
+    font-family: "Proxima-Nova-Regular";
+    font-size: 20px;
+    color: #3fa15f;
+    text-transform: uppercase;
+    padding-top:9px;
+    margin-bottom: 0;
+}
+.p-line{
+    display: block;
+    width: 40px;
+    height: 2px;
+    background:#36814d ;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+.box-news{
+    display: block;
+    background-color: #f8f9fa;
+    margin-bottom: 15px;
+}
+.box-news img{
+    max-width: 100%;
+}
+.box-text{
+    padding-right: 20px;
+}
+.new-date{
+    color: #9b9b9b;
+    padding: 10px 0 5px 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #d9d9d9;
+}
+.box-text p{
+    font-size: 14px;
+    font-family: "Proxima-Nova-Regular";
+}
+.video-box{
+    height: 358px;
+}
+.video-box .slick-dots{
+    margin: -10px 0px;
+}
+.slider-nav{
+    padding-top: 10px;
+}
+.slider-nav:hover img{
+    border: 2px solid #25a55e;
+}
+.item a img{
+    margin-top: -169px;
+    padding-left: 149px;
+}
+.item img{
+    border:1px #25a55e solid;
+}
+.item .title-video{
+    padding: 0 40px;
+    font-size: 16px;
+    color: #ffffff;
+    padding-top: 40px;
+}
+.section2{
+    background: url("../image/products/pro_04.jpg") no-repeat center fixed ;
+    padding: 50px 0 10px;
+    margin-bottom: 48px;
+}
+.section2 p{
+    font-size: 16px;
+}
+.slide-doctor button{
+    display: none;
+}
+.slide-doctor img{
+    width: 255px;
+    margin-right: 30px;
+}
+.slide-doctor h4{
+    font-family: "Proxima Nova Bold", Arial, Serif;
+    font-size: 18px;
+    margin-right: 10px;
+    padding-top: 16px;
+}
+.slide-doctor button{
+    display: none;
+}
+.clickhere{
+    position: absolute;
+    background-color: #FFFFFF;
+    margin-top: -63px;
+    display: flex;
+    width: 255px;
+    height: 58px;
+    text-decoration: none;
+;
+}
+.clickhere span{
+    color: #3fa15f;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 17px 10px;
+
+}
+.clickhere img{
+    width: 20px;
+    height: 30px;
+    margin-top: 10px;
+}
+.clickhere{
+    display: none;
+}
+.image-doctor:hover .clickhere{
+    display: flex;
+}
+.text-center h2{
+    font-family: "Proxima Nova Bold",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 41px;
+}
+.text-uppercase{
+    font-size: 18px;
+    margin: 0;
+}
+.item-image{
+    padding: 0 5px;
+}
+.section3 button{
+    display: none;
+}
+.mutiple-images{
+    background-color: #daf2e1;
+    padding: 11px 25px 0px 25px;
+}
+.video-media{
+    position: relative;
+}
+.video-media i{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    width: 55px;
+    height: 55px;
+    background: url("../image/layout/ico_40.png");
+    margin-top: -39px;
+    margin-left: -30px;
+}
+.text-video-media{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 20px 40px;
+    color: #fff;
+    font-size: 15px;
+}
+.box-video {
+    background: #daf2e1;
+    margin-bottom: 15px;
+}
+.
+/*POPUP*/
+.modal-show{
+    padding-right: 17px;
+}
+.modal-header{
+    padding: 0;
+    height: 1px;
+}
+.modal-header{
+    padding: 0;
+}
+.modal-header .close{
+    background: url("../image/layout/icon_close.png") no-repeat;
+    opacity: 1;
+
+}
+.modal-body{
+    padding: 0;
+}
+.modal-body .col-md-5{
+    flex: 0 0 41.66667%;
+}
+.modal-body h5{
+    border-bottom: 1px solid #ccc;
+    text-align: left !important;
+    margin: 29px 20px 0 0;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-family: "Proxima-Nova-Regular";
+}
+.modal-title{
+    line-height: 0;
+}
+.image-popup img{
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-top: -1px;
+}
+
+.icon-user{
+    background: url("../image/layout/icon_user.png");
+}
+.form-popup{
+    padding: 20px 50px 20px 30px;
+}
+.form-popup .form-group{
+    position: relative;
+}
+.form-popup .form-group i{
+    position: absolute;
+    top:5px;
+    left: 6px;
+}
+.form-popup .form-control{
+    padding: 23px 50px;
+    margin-bottom: 16px;
+    border-radius: 30px;
+    background: #d1f2f0;
+    height: calc(1.5em + 0.75rem + 2px);
+    font-size: 16px;
+    color: #495057;
+}
+.form-popup p button{
+    background: url("../image/layout/bg_btn_voucher.png");
+    border-radius: 40px;
+    color: #055971;
+    border: 1px solid #61c9cf;
+    font-size: 16px;
+}
+.form-popup p button:hover{
+    color: #212529;
+}
+.form-group label{
+    margin-bottom: 14px;
+}
+/*FOOTER*/
+.footer{
+    margin-top:48px;
+    background-color: #36814d;
+    padding: 20px 0;
+    height: 521px;
+}
+.img-footer{
+    text-align: center;
+    margin-top: -60px;
+    margin-bottom: 30px;
+}
+.img-footer h5{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: "Proxima Nova Bold",Arial,serif;
+    margin-bottom: 0;
+}
+.list-contact{
+    list-style: none;
+    font-family: "Proxima-Nova-Regular",Arial,sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    border-bottom: 1px solid #a2ecc0;
+    padding-left: 0;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.number-contact{
+    font-size: 16px;
+}
+.list-contact li p{
+    font-size: 16px;
+}
+.hour-work{
+    color: #FFFFFF;
+}
+.hour-work p{
+    font-size: 16px;
+}
+.list-images{
+    padding-right: 7px;
+}
+.hotline{
+    margin-top: 27px;
+    padding: 15px;
+    background-color: #398f54;
+    color: #FFFFFF;
+}
+.hotline p{
+    font-size: 16px;
+}
+.img-hotline{
+    display: flex;
+}
+.img-hotline p{
+    padding-left: 11px;
+}
+.img-hotline p strong{
+    font-family: "Proxima Nova Bold", Arial, Serif;
+    font-size: 16px;
+}
+.text-hotline{
+    margin: 0;
+}
+.text-hotline p{
+    margin: 0;
+    font-size: 14px;
+}
+.multiple-items button{
+    display: none;
+}
+.form1{
+    background-color: #66b345;
+    padding: 30px 30px 1px 30px;
+}
+.form-group{
+    margin-bottom: 10px;
+}
+.form-group textarea{
+    height: 92px;
+}
+.form-control{
+    background-color: #3ea016;
+    border: #3ea016;
+    height: 34px;
+    font-size: 14px;
+}
+.form1 button{
+    font-size: 16px;
+    font-family: "Proxima-Nova-Regular",Arial,sans-serif;
+}
+.input-group-addon{
+    background-color: #3ea016;
+}
+.note-form{
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.btn-contact{
+    color: #FFFFFF;
+    background-color: #36814d;
+    text-transform: uppercase;
+    border-radius: 0 ;
+}
+
+/*-----COPY RIGHT-----*/
+.copyright{
+    padding-top: 15px;
+    background-color: #348d34;
+}
+.text-copyright{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: "Proxima-Nova-Regular", Arial, sans-serif;
+    margin-top: 5px;
+    padding: 0;
+}
+
+.icon-copyright{
+    display: inline-flex;
+    float: right;
+    list-style: none;
+}
+.icon-copyright li{
+    padding-left: 14px;
+}
+.list-images img{
+    max-width: 100%;
+    margin-right: 8px;
+}
+/*-----GIỚI THIỆU-----*/
+.calendar{
+    color: #FFFFFF;
+    background-color: #0cbab4;
+    width: 70px;
+    text-align: center;
+    float: left;
+}
+.calendar p{
+    margin-bottom: 0;
+}
+.month{
+    margin-bottom: 0;
+    padding: 3px 0px;
+    font-size: 14px;
+}
+.month-lg{
+    font-size: 55px;
+    padding: 17px 0;
+}
+.title-2{
+    padding-left: 90px;
+}
+.month-from{
+    color: #000000;
+    background: #b8d87a;
+    padding: 3px 0;
+}
+.text-history{
+    margin: 0;
+}
+.section-hitory .row{
+    margin-bottom: 50px;
+}
+.menu-right{
+    margin-bottom: 40px;
+}
+.menu-right ul li{
+    list-style: none;
+}
+.menu-right li a{
+    display: block;
+    color: #25a55e;
+    font-size: 15px;
+    padding: 8px 15px;
+    border-bottom: 1px solid #d5d5d5;
+}
+.menu-right li.active a{
+    color: #fff;
+    background: url(../image/layout/bgr_01.jpg) no-repeat;
+    border-bottom: none;
+}
+.menu-right li a{
+    text-decoration: none;
+}
+.menu-right li.active a{
+    text-decoration: none;
+}
+.menu-right li a:hover{
+    color: #0c4128;
+}
+.menu-right li.active a:hover{
+    color: #FFFFFF;
+}
+.ads-img img{
+    max-width: 100%;
+}
+.title-image p{
+    position: absolute;
+    background-color: #3fa15f;
+    font-size: 15px;
+    margin-top: -50px;
+    padding: 15px 20px;
+    width: 753px;
+    color: #FFFFFF;
+}
+.item-coso{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.item-coso img{
+    width: 100%;
+}
+.item-coso .slick-slide{
+    margin-right: 10px;
+}
+/*-----GIỚI THIỆU - CHUYÊN GIA -----*/
+.profire h4{
+    margin: 15px 0 0 0;
+}
+.profire h4 a{
+    text-decoration: none;
+    color: #25a55e;
+    font-size: 18px;
+    font-family: "Proxima Nova Bold", Arial, Serif;
+}
+.profire h4 a:hover{
+    color: #28a745;
+}
+/*-----GIỚI THIỆU - CHUYÊN GIA CHI TIẾT-----*/
+.profire-doctor img{
+    width: 100%;
+}
+.profire-doctor h3{
+    color: #25a55e;
+    font-size: 28px;
+    font-family: "Proxima Nova Bold", Arial, Serif;
+    margin-bottom: 0;
+}
+
+/*-----GIỚI THIỆU - BAN LÃNH ĐẠO-----*/
+
+.top1{
+    margin-bottom: 57px;
+}
+.title-top1{
+    margin: 0;
+}
+.box-top1{
+    margin-bottom: 24px;
+}
+.box-top1 img{
+    width: 208px;
+    height: 209px;
+}
+.title-top1 a{
+    color: #25a55e;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Proxima Nova Bold", Arial, Serif;
+}
+/*-----GIỚI THIỆU - SỨ MỆNH-----*/
+.quote{
+    margin: 0 45px;
+}
+.quote p{
+    font-size: 16px;
+}
+.box-icon2 img{
+    max-width: 100%;
+}
+.box-icon2 p{
+    font-size: 16px;
+}
+.box-3{
+    margin-bottom: 50px;
+}
+/*-----GIỚI THIỆU - CƠ SỞ VẬT CHẤT-----*/
+.images-coso{
+    margin-bottom: 56px;
+}
+/*-----TIN TỨC-----*/
+.icon-date-new{
+    margin-right: 1px;
+}
+.newss .menu-right{
+    margin-top: 3rem;
+}
+.box-tintuc .col-8{
+    margin-top: -8px;
+}
+.box-tintuc p{
+    font-family: "Proxima-Nova-Regular";
+}
+.box-tintuc img{
+    max-width: 100%;
+}
+.title-3{
+    margin: 0;
+    font-size: 0.5rem;
+}
+.title-3 a{
+    text-decoration: none;
+    color: #25a55e;
+    font-size: 18px;
+    font-family: "Proxima Nova Bold", Arial, Serif;
+}
+.pagination li a{
+    border-radius: 0 ;
+    border: 1px solid #cdcdcd;
+    color: #626263;
+    padding: 7px 12px ;
+    margin: 0 2px ;
+    font-size: 22px;
+}
+.pagination li.active a{
+    background-color: #48a147;
+    color: #FFFFFF;
+}
+.list-year {
+    padding-left: 20px;
+}
+.list-year li{
+    color: #25a55e;
+    margin-bottom: 8px;
+}
+.list-year li a{
+    color: #25a55e;
+    font-size: 14px;
+    font-family: "Proxima Nova Bold";
+}
+.img-ads{
+    margin-bottom: 25px;
+}
+/*-----TIN TỨC - CHI TIẾT-----*/
+.date{
+    margin: 0;
+}
+.text-shot{
+    margin-bottom: 16px;
+}
+.text-shot p{
+    margin: 0;
+}
+.text-shot p a{
+    color: #25a55e;
+}
+/*-----DỊCH VỤ-----*/
+.item-2{
+    border: 1px solid #e5e5e5;
+    min-height: 330px;
+    background-color: #e5e5e5;
+
+}
+.name-item{
+    padding: 10px 15px;
+}
+.name-item p{
+    font-size: 16px;
+}
+.list-tab{
+    padding-left: 0;
+}
+.list-service{
+    padding-left: 15px;
+}
+.list-service li{
+    color: #25a55e;
+}
+.list-service li strong{
+    font-size: 14px;
+}
+.list-service li p{
+    color: black;
+}
+.datlich p a{
+    background-color: #48a147;
+    padding: 14px 25px 14px 12px;
+}
+.datlich p a i{
+    padding-right: 13px;
+}
+.datlich p a:hover{
+    background-color: #0c4128;
+}
+.one-line{
+    color: #FFFFFF;
+}
+.tab-menu-right{
+    background: url("../image/layout/bgr_01.jpg");
+    padding: 8px 8px 5px 20px;
+    margin-bottom: 4px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.tab-menu-right1{
+    background: url("../image/layout/bgr_01.jpg");
+    padding: 8px;
+    margin-bottom: 4px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.list-items{
+    padding-left: 0;
+}
+.list-items li{
+    padding: 7px 15px 7px 30px;
+    background: url("../image/layout/icon-arrow-sidebar.png") no-repeat;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 2px;
+}
+.list-items{
+    padding-left: 0;
+}
+.list-items li{
+    padding: 7px 15px 7px 30px;
+    background: url("../image/layout/icon-arrow-sidebar.png") no-repeat;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 2px;
+}
+.list-items1{
+    padding-left: 0;
+}
+.list-items1 li{
+    padding: 7px 15px 7px 30px;
+    background: url("../image/layout/icon-arrow-sidebar.png") no-repeat;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 2px;
+}
+
+
