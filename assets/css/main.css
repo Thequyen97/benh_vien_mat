@@ -50,10 +50,9 @@ body{
     margin: 0px !important;
     line-height: 20px;
 }
-/*-----POPUP-----*/
 
  /*-----HOME PAGE-----*/
-
+ /*HEADER*/
 .nav-item{
     height: 63px;
 }
@@ -153,7 +152,7 @@ body{
     text-decoration: none;
     padding-left: 15px;
 }
-/*BANNER*/
+  /*BANNER*/
 .img-banner{
     margin-bottom: 10px;
 }
@@ -258,8 +257,7 @@ body{
     font-size: 18px;
     font-family: "Proxima Nova Bold", Arial, sans-serif;
 }
-.
-/*CONTENT*/
+  /*CONTENT*/
 .widget-title{
     margin-bottom: 25px;
 }
@@ -355,7 +353,6 @@ body{
     width: 255px;
     height: 58px;
     text-decoration: none;
-;
 }
 .clickhere span{
     color: #3fa15f;
@@ -429,8 +426,8 @@ body{
     background: #daf2e1;
     margin-bottom: 15px;
 }
-.
-/*POPUP*/
+
+  /*POPUP*/
 .modal-show{
     padding-right: 17px;
 }
@@ -503,12 +500,11 @@ body{
 .form-group label{
     margin-bottom: 14px;
 }
-/*FOOTER*/
+  /*FOOTER*/
 .footer{
     margin-top:48px;
     background-color: #36814d;
     padding: 20px 0;
-    /*height: 521px;*/
 }
 .img-footer{
     text-align: center;
@@ -614,7 +610,7 @@ body{
     border-radius: 0 ;
 }
 
-/*-----COPY RIGHT-----*/
+  /*COPY RIGHT*/
 .copyright{
     padding-top: 15px;
     background-color: #348d34;
@@ -639,7 +635,9 @@ body{
     max-width: 100%;
     margin-right: 8px;
 }
-/*-----GIỚI THIỆU-----*/
+
+  /*-----GIỚI THIỆU-----*/
+
 .calendar{
     color: #FFFFFF;
     background-color: #0cbab4;
@@ -728,7 +726,9 @@ body{
 .image-csvc{
     position: relative;
 }
-/*-----GIỚI THIỆU - CHUYÊN GIA -----*/
+
+  /*-----GIỚI THIỆU - CHUYÊN GIA -----*/
+
 .profire h4{
     margin: 12px 0 0 0;
     line-height: 1;
@@ -745,7 +745,9 @@ body{
 .profire h4 a:hover{
     color: #28a745;
 }
-/*-----GIỚI THIỆU - CHUYÊN GIA CHI TIẾT-----*/
+
+  /*-----GIỚI THIỆU - CHUYÊN GIA CHI TIẾT-----*/
+
 .view-doctor{
     float: left;
 }
@@ -760,7 +762,8 @@ body{
     margin-bottom: 0;
 }
 
-/*-----GIỚI THIỆU - BAN LÃNH ĐẠO-----*/
+  /*-----GIỚI THIỆU - BAN LÃNH ĐẠO-----*/
+
 .list-boss{
     margin-bottom: 23px;
 }
@@ -784,7 +787,9 @@ body{
     font-size: 18px;
     font-family: "Proxima Nova Bold", Arial, Serif;
 }
-/*-----GIỚI THIỆU - SỨ MỆNH-----*/
+
+  /*-----GIỚI THIỆU - SỨ MỆNH-----*/
+
 .tamnhin{
     margin-bottom: 25px;
 }
@@ -812,11 +817,15 @@ body{
 .box-3{
     margin-bottom: 50px;
 }
-/*-----GIỚI THIỆU - CƠ SỞ VẬT CHẤT-----*/
+
+  /*-----GIỚI THIỆU - CƠ SỞ VẬT CHẤT-----*/
+
 .images-coso{
     margin-bottom: 56px;
 }
-/*-----TIN TỨC-----*/
+
+  /*-----TIN TỨC-----*/
+
 .icon-date-new{
     margin-right: 1px;
 }
@@ -869,7 +878,9 @@ body{
 .img-ads{
     margin-bottom: 25px;
 }
-/*-----TIN TỨC - CHI TIẾT-----*/
+
+  /*-----TIN TỨC - CHI TIẾT-----*/
+
 .date{
     margin: 0;
 }
@@ -882,7 +893,9 @@ body{
 .text-shot p a{
     color: #25a55e;
 }
-/*-----DỊCH VỤ-----*/
+
+  /*-----DỊCH VỤ-----*/
+
 .item-2{
     border: 1px solid #e5e5e5;
     min-height: 330px;
@@ -962,7 +975,8 @@ body{
     border-radius: 2px;
 }
 
-/*Reponsive mobile app*/
+  /*Reponsive mobile app*/
+
 @media (max-width: 576px) {
     .col-sm-5{
         flex: 100%;
@@ -972,6 +986,9 @@ body{
     }
     .img-footer{
         margin-top: 0;
+    }
+    .col-sm-3{
+        display: none;
     }
 }
 
