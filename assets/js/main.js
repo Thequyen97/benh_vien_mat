@@ -114,9 +114,10 @@ $(document).ready(function(){
 
     // popup
     $(".modal-header button").click(function(){
-        $(".modal").hide(1000);
+        $(".modal").modal('hide');
     });
     $('#home-modal').modal('show');
+
 
     // sibar-right - dịch vụ
     $(".tab-menu-right").click(function(){
